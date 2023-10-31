@@ -7,11 +7,11 @@ private:
   
 public:
   void init();
-  void Forword();
-  void Backword();
-  void Right();
-  void Left();
-  void Stop();
+  void forword();
+  void backword();
+  void right();
+  void left();
+  void stop();
   int Speed;
   int motor_speed_1;
   int motor_speed_2;
