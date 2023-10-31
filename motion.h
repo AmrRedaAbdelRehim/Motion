@@ -4,12 +4,14 @@
 #define Motion_H
 class Motion {
 private:
+  
+public:
+  void init();
   void Forword();
   void Backword();
   void Right();
   void Left();
   void Stop();
-public:
   int Speed;
   int motor_speed_1;
   int motor_speed_2;
