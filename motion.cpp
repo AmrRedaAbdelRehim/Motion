@@ -16,7 +16,7 @@ void Motion::init() {
   analogWrite(en4, 0);
   
 };
-void Motion::Forword() {
+void Motion::forword() {
   digitalWrite(Motor1R_right_pin, HIGH);
   digitalWrite(Motor2L_right_pin, HIGH);
   digitalWrite(Motor3R_right_pin, HIGH);
@@ -33,7 +33,7 @@ void Motion::Forword() {
   digitalWrite(Motor3R_left_pin, LOW);
   digitalWrite(Motor4L_left_pin, LOW);
 };
-void Motion::Backword() {
+void Motion::backword() {
   digitalWrite(Motor1R_right_pin, LOW);
   digitalWrite(Motor2L_right_pin, LOW);
   digitalWrite(Motor3R_right_pin, LOW);
@@ -50,7 +50,7 @@ void Motion::Backword() {
   digitalWrite(Motor3R_left_pin, HIGH);
   digitalWrite(Motor4L_left_pin, HIGH);
 };
-void Motion::Right() {
+void Motion::right() {
   digitalWrite(Motor1R_right_pin, LOW);
   digitalWrite(Motor2L_right_pin, HIGH);
   digitalWrite(Motor3R_right_pin, LOW);
@@ -67,7 +67,7 @@ void Motion::Right() {
   digitalWrite(Motor3R_left_pin, HIGH);
   digitalWrite(Motor4L_left_pin, LOW);
 };
-void Motion::Left() {
+void Motion::left() {
   digitalWrite(Motor1R_right_pin, HIGH);
   digitalWrite(Motor2L_right_pin, LOW);
   digitalWrite(Motor3R_right_pin, HIGH);
@@ -84,7 +84,7 @@ void Motion::Left() {
   digitalWrite(Motor3R_left_pin, LOW);
   digitalWrite(Motor4L_left_pin, HIGH);
 };
-void Motion::Stop() {
+void Motion::stop() {
   digitalWrite(Motor1R_right_pin, LOW);
   digitalWrite(Motor2L_right_pin, LOW);
   digitalWrite(Motor3R_right_pin, LOW);
