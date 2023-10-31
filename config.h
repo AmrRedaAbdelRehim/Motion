@@ -10,5 +10,10 @@
 #define Motor3R_left_pin 8
 #define Motor4L_right_pin 4
 #define Motor4L_left_pin 3
+#define en1 11
+#define en2 12
+#define en3 13
+#define en4 2
+
 
 #endif
